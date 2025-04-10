@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GSAP Login Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <form class="login-form">
+          <h2 class="title">Welcome Back!</h2>
+          <input type="text" class="input" placeholder="Username" />
+          <input type="password" class="input" placeholder="Password" />
+          <button class="btn">Login</button>
+        </form>
+      
+        <div class="success-message" style="display: none;">
+          <h2 class="title">✅ Logged in!</h2>
+          <p class="subtitle">Welcome back, user 😎</p>
+          <button class="btn" id="go-back">Go Back</button>
+        </div>
+      </div>
+      
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

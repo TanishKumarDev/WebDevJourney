@@ -1,0 +1,20 @@
+<!-- ```
+└── 📁my-portfolio
+    └── 📁public
+        └── vite.svg
+    └── 📁src
+        └── App.css
+        └── App.jsx
+        └── 📁assets
+            └── react.svg
+        └── index.css
+        └── main.jsx
+    └── .gitignore
+    └── eslint.config.js
+    └── index.html
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── tailwind.config.js
+    └── vite.config.js
+``` -->
